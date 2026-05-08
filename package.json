@@ -1,0 +1,15 @@
+{
+  "name": "kafka-idempotent-handlers",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Reference idempotent Kafka consumer pattern for booking and payout events.",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/vitest/vitest.mjs run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
